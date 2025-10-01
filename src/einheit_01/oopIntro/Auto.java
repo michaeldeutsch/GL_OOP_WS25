@@ -1,4 +1,4 @@
-package einheit_01.intro;
+package einheit_01.oopIntro;
 
 public class Auto {
 

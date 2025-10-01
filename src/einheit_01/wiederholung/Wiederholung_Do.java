@@ -1,8 +1,7 @@
-package einheit_01;
+package einheit_01.wiederholung;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Wiederholung_Do {
