@@ -1,8 +1,8 @@
-# Grundlagen der OOP Programmierung – Lehrveranstaltung Übersicht
+# 💻 Grundlagen der OOP Programmierung – Lehrveranstaltung Übersicht
 
 Dieses Repository enthält die Lehrinhalte und Codebeispiele der Lehrveranstaltung **„Grundlagen der Objektorientierten Programmierung (OOP)”**.  
 Die Struktur ist nach Lehreinheiten (einheit_01, einheit_02, …) gegliedert.  
-Jede Einheit umfasst thematische Schwerpunkte, Erklärungen und praktische Beispiele.
+Jede Einheit umfasst thematische Schwerpunkte, Erklärungen und praktische Beispiele in Java.
 
 ---
 
@@ -11,7 +11,7 @@ Jede Einheit umfasst thematische Schwerpunkte, Erklärungen und praktische Beisp
 **Themen:**
 - Wiederholung grundlegender Programmierkonzepte (Schleifen, Arrays, Listen)
 - Einführung in die objektorientierte Denkweise (Klassen, Objekte, Attribute, Methoden)
-- Einstieg in Java-Projekte und Packages
+- Aufbau von Java-Projekten und Packages
 
 **Beispiele:**
 - `oopIntro/Auto.java`, `AutoStart.java`, `Start.java`, `Student.java`  
@@ -24,9 +24,9 @@ Jede Einheit umfasst thematische Schwerpunkte, Erklärungen und praktische Beisp
   - `namen.txt` als Datengrundlage für Schleifenbeispiele.
 
 **Lernziele:**
-- Verständnis des objektorientierten Paradigmas.
-- Anwendung einfacher Klassen in Java.
-- Wiederholung grundlegender Kontrollstrukturen.
+- Verständnis des objektorientierten Paradigmas  
+- Anwendung einfacher Klassen in Java  
+- Wiederholung grundlegender Kontrollstrukturen  
 
 ---
 
@@ -51,11 +51,48 @@ Jede Einheit umfasst thematische Schwerpunkte, Erklärungen und praktische Beisp
   → Einfache Übung zur Klassenstruktur und Objektinstanziierung.
 
 **Lernziele:**
-- Nutzung von Enums in Java.
-- Verständnis von Beziehungen zwischen Klassen.
-- Aufbau modularer Programme mit mehreren Paketen.
+- Nutzung und Einsatz von Enums in Java  
+- Verständnis von Beziehungen zwischen Klassen  
+- Aufbau modularer Programme mit mehreren Paketen  
 
 ---
 
-## 🔧 Projektstruktur
+## 💡 Hinweise zur Nutzung
 
+- Jede Einheit ist in einem eigenen Package organisiert.  
+- Zum Ausführen einzelner Beispiele verwende die jeweilige `Start.java` oder `RunApplication.java`-Datei.  
+- Alle Beispiele sind mit klaren Klassennamen und Strukturen versehen, um den Lernfortschritt nachzuvollziehen.  
+
+---
+
+## 🧭 Ausblick auf kommende Einheiten
+
+| Einheit | Thema | Schwerpunkte |
+|:--------:|:------|:-------------|
+| 03 | Vererbung & Polymorphie | Basisklassen, Überschreiben von Methoden |
+| 04 | Interfaces & Abstraktion | Abstrakte Klassen, Implementierungen |
+| 05 | Fehlerbehandlung & Exceptions | Exception-Typen, Try-Catch-Blöcke |
+| 06 | Datei- & Benutzerinteraktion | Lesen/Schreiben, Scanner, I/O Streams |
+
+---
+
+## 🎓 Abspann
+
+Dieses Repository wurde erstellt im Rahmen der Lehrveranstaltung  
+**„Grundlagen der Objektorientierten Programmierung“**  
+an der **Fachhochschule des BFI Wien**.
+
+**Dozent:** Michael Deutsch  
+**Studiengang:** Projektmanagement und IT  
+
+> *Ziel der Lehrveranstaltung:*  
+> Studierende erlernen die Grundprinzipien der objektorientierten Programmierung,  
+> um eigenständig strukturierte und wartbare Java-Anwendungen zu entwickeln.  
+
+📅 **Semester:** Wintersemester 2025  
+🏫 **Fachhochschule des BFI Wien**  
+📘 *Alle Codebeispiele dienen der Lehre und Übung.*
+
+---
+
+© 2025 Fachhochschule des BFI Wien – Alle Rechte vorbehalten.
