@@ -26,13 +26,11 @@ public class Kunde {
    }
 
 
-
-
-
-
     public String toString(){
+        String lieblingsmarkt  = lieblingsstandort == null?"":lieblingsstandort.toString();
+        String geburtsdatum = this.geburtsdatum2 == null?"":this.geburtsdatum2.toString();
 
-    return "";
+        return "Kunde " + vorname + " " + nachname + " " + lieblingsmarkt + " " + geburtsdatum;
 
        }
 

@@ -11,14 +11,9 @@ public class RunApplication {
         System.out.println(ersterKunde.toString()); // neu
 
         Kunde zweiterKunde = new Kunde("Hand","Huber", LocalDate.of(2000,1,1));
+       zweiterKunde.lieblingsstandort = Standorte.DONAUZENTRUM;
         System.out.println(zweiterKunde.toString());
 
-
-
-        String standort = "Wien";
-
-
-        System.out.println("kunde heißt x " + (standort == null?"":"Standort"));
 
 
 
