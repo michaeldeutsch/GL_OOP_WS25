@@ -1,4 +1,4 @@
-package einheit_02;
+package einheit_02.kunde;
 
 import java.time.LocalDate;
 

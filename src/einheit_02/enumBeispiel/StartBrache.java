@@ -1,4 +1,4 @@
-package einheit_02;
+package einheit_02.enumBeispiel;
 
 public class StartBrache {
     public static void main(String[] args) {
