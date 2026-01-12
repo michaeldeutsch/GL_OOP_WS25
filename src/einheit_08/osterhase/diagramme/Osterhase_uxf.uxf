@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>22</y>
+      <w>396</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>Hase
+--
+VARIABLEN
+_-COUNTER:int  {COUNTER = 1, fortlaufend +1}_
+-name: String
+-hasenID: int{readOnly, hasenID = 1, fortlaufend +1}
+--
+METHODEN
++befuellen(ei: Ei)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>11</x>
+      <y>286</y>
+      <w>264</w>
+      <h>352</h>
+    </coordinates>
+    <panel_attributes>Normhase
+--
+-alter: int {alter &gt;1, alter &lt;= 10}
+--
+METHODEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>286</x>
+      <y>231</y>
+      <w>110</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>Superhasen
+--
+ATTRIBUTE
+--
+METHODEN
++fliegen():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>55</x>
+      <y>176</y>
+      <w>220</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>176</y>
+      <w>121</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>22</x>
+      <y>22</y>
+      <w>209</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>517</x>
+      <y>363</y>
+      <w>352</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>Nest
+--
+VARIABLE
+_-register: String[]_
+-name: String {readOnly, not null, unique}
+-plaetze: Ei[] {plaetze &gt;= 3, plaetze &lt;= 10}
+--
+METHODE
+_+ZEIGE_ALLE_NESTER():void_
++addEi(ei: Ei, hase: Hase)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>583</x>
+      <y>33</y>
+      <w>242</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>Ei
+--
+_-EIER_LISTE: Ei[]_
+VARIABLEN
+--
++zeigeEier(farbe: Farbe):void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>429</y>
+      <w>132</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>&gt;&gt; Farbe &lt;&lt;
+--
+BLAU(1, "blau")
+GRUEN(2, "grün")
+GELB(3, "gelb")
+ROT(5, "rot")
+--
+-kosten: int
+-schoenerName: String
+--
++getKosten(): int
++getName(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>451</x>
+      <y>132</y>
+      <w>143</w>
+      <h>253</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..*
+befuellt  &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>253</y>
+      <w>121</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= 1
+m2=3..10
+enthät zw. &gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;20.0;10.0</additional_attributes>
+  </element>
+</diagram>
